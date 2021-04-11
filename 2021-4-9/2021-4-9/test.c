@@ -15,7 +15,7 @@
 char* My_strcpy(char* arr1, const char* arr2)
 {
 	char* pa = arr1;
-	assert(arr1 != NULL&& arr2 != NULL);//╤оят
+	assert(arr1 != NULL && arr2 != NULL);//╤оят
 	//assert(arr2 != NULL);
 	while (*arr1++ = *arr2++);
 	return *pa;
@@ -24,7 +24,7 @@ int main()
 {
 	char arr1[] = "%%%%%%%%";
 	char arr2[] = "hello";
-	My_strcpy(arr1,arr2);
-	printf("%s\n",arr1);
+	My_strcpy(arr1, arr2);
+	printf("%s\n", arr1);
 	return 0;
 }

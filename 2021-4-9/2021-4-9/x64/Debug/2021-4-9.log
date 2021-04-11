@@ -1,3 +1,0 @@
-﻿  test.c
-E:\C语言\Github\green-hand\2021-4-9\2021-4-9\test.c(21,12): warning C4047: “return”:“char *”与“char”的间接级别不同
-  2021-4-9.vcxproj -> E:\C语言\Github\green-hand\2021-4-9\x64\Debug\2021-4-9.exe
