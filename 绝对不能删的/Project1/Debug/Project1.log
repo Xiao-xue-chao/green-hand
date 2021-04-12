@@ -1,3 +1,4 @@
-﻿  源.c
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
-E:\C语言\c语言学习\绝对不能删的\Debug\Project1.exe : fatal error LNK1120: 1 个无法解析的外部命令
+﻿  Add.c
+  源.c
+E:\C语言\Github\green-hand\绝对不能删的\Project1\源.c(338,4): error C2181: 没有匹配 if 的非法 else
+  正在生成代码...

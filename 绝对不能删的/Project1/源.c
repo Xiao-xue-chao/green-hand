@@ -325,22 +325,22 @@
 //	printf("%d,%d\n", a,b);
 //	return 0;
 //}
-//int main()
-//{
-//	int i = 0;
-//	for (i = 1; i <= 100; i++)
-//	{
-//		int j = 0;
-//		for (j = 1; j <= i; j++)
-//		{
-//			if (i % j == 0)
-//				
-//			else
-//				printf("%d\n", i);
-//		}
-//	}
-//	return 0;
-//}
+int main()
+{
+	int i = 0;
+	for (i = 1; i <= 100; i++)
+	{
+		int j = 0;
+		for (j = 1; j <= i; j++)
+		{
+			if (i % j == 0)
+				
+			else
+				printf("%d\n", i);
+		}
+	}
+	return 0;
+}
 //void Swap1(int x,int y)
 //{
 //	int c = 0;;
