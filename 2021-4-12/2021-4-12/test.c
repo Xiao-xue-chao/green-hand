@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
+//³Ë·¨¿Ú¾÷±í
 int main()
 {
 	int i = 0;
