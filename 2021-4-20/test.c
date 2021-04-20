@@ -6,7 +6,7 @@ int My_strlen(char* arr)
 	arr;
 	if (*arr != '\0')
 	{
-		return 1 + My_strlen(++arr);
+		return 1 + My_strlen(arr + 1);
 	}
 	else
 		return 0;
