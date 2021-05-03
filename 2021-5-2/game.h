@@ -19,4 +19,4 @@
 void Initboard(char board[ROWS][COLS], int rows, int cols, char ret);
 
 //¥Ú”°∆Â≈Ã
-void Display(char board[ROWS][COLS], int rows, int cols);
+void Display(char board[ROWS][COLS], int row, int col);

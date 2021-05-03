@@ -1,2 +1,6 @@
-﻿  test.c
-  2021-5-2.vcxproj -> E:\C语言\Github\green-hand\2021-5-2\Debug\2021-5-2.exe
+﻿  game.c
+  test.c
+E:\C语言\Github\green-hand\2021-5-2\test.c(19,14): warning C4013: “Displayboard”未定义；假设外部返回 int
+E:\C语言\Github\green-hand\2021-5-2\test.c(13,1): error C2075: “mine”: 初始化需要带括号的初始值设定项列表
+E:\C语言\Github\green-hand\2021-5-2\test.c(14,1): error C2075: “show”: 初始化需要带括号的初始值设定项列表
+  正在生成代码...

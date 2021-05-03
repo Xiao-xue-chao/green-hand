@@ -15,7 +15,7 @@ void Initboard(char board[ROWS][COLS], int rows, int cols, char ret)
 	}
 }
 
-void Display(char board[ROWS][COLS], int rows, int cols)
+void Display(char board[ROWS][COLS], int row, int col)
 {
 	int i = 0;
 	int j = 0;
@@ -24,8 +24,8 @@ void Display(char board[ROWS][COLS], int rows, int cols)
 	{
 		for (j = 1; j <= row; j++)
 		{
-
+			printf("%c ", board[i][j]);
 		}
 	}
-
+	printf("-------------É¨À×ÓÎÏ·----------------\n");
 }

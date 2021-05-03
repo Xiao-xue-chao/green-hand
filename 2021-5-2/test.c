@@ -16,8 +16,8 @@ void game()
 	Initboard(mine, ROWS, COLS, '0');
 	Initboard(show, ROWS, COLS, '*');
 	//¥Ú”°∆Â≈Ã
-	Displayboard(mine, ROWS, COLS);
-	Displayboard(show, ROWS, COLS);
+	Displayboard(mine, ROW, COL);
+	Displayboard(show, ROW, COL);
 }
 int main()
 {
