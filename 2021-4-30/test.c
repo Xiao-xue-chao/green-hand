@@ -9,16 +9,37 @@ void game()
 	Initboard(board, ROW, COL);
 	//打印数组
 	Printboard(board, ROW, COL);
+	char ret = 0;
 	while (1)
 	{
 		//玩家下棋
 		Playermove(board, ROW, COL);
 		Printboard(board, ROW, COL);
+		//判断输赢
+		ret = Iswin(board, ROW, COL);
+		if (ret != 'C')
+			break;
+        
 		//电脑下棋
 		Computermove(board, ROW, COL);
 		Printboard(board, ROW, COL);
-		Iswin(board, ROW, COL);
+		ret = Iswin(board, ROW, COL);
+		if (ret != 'C')
+			break;
 	}
+	if (ret == '*')
+	{
+		printf("玩家赢了\n");
+	}
+	else if (ret == '#')
+	{
+		printf("电脑赢了\n");
+	}
+	else
+	{
+		printf("平局\n");
+	}
+	Printboard(board, ROW, COL);
 }
 
 int main()

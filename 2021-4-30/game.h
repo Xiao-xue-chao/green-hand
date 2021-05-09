@@ -29,4 +29,9 @@ void Playermove(char board[ROW][COL], int row, int col);
 void Computermove(char board[ROW][COL], int row, int col);
 
 //判断输赢
-void Iswin(char board[ROW][COL], int row, int col);
+char Iswin(char board[ROW][COL], int row, int col);
+
+//1. 玩家赢了 - *
+//2. 电脑赢了 - #
+//3. 平局 - Q
+//4. 游戏继续 - C
