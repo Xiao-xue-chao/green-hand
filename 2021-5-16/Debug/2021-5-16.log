@@ -1,0 +1,2 @@
+﻿  test.c
+E:\C语言\Github\green-hand\2021-5-16\test.c(61): error C4703: 使用了可能未初始化的本地指针变量“q”
