@@ -1,0 +1,6 @@
+﻿  test.c
+E:\C语言\Github\green-hand\2021-10-5\test.c(36,40): warning C4047: “函数”:“int”与“void *”的间接级别不同
+E:\C语言\Github\green-hand\2021-10-5\test.c(36,36): warning C4024: “BuyNode”: 形参和实参 1 的类型不同
+E:\C语言\Github\green-hand\2021-10-5\test.c(38,9): warning C4033: “copyRandomList”必须返回值
+E:\C语言\Github\green-hand\2021-10-5\test.c(49): warning C4715: “copyRandomList”: 不是所有的控件路径都返回值
+  2021-10-5.vcxproj -> E:\C语言\Github\green-hand\2021-10-5\Debug\2021-10-5.exe

@@ -37,6 +37,13 @@ void SLisTest2()
 	SListPrint(plist);
 	SListPushFront(&plist, 0);
 	SListPrint(plist);
+	SListPopFront(&plist);
+	SListPrint(plist);
+	SListPopBack(&plist);
+	SListPrint(plist);
+	SListDestory(&plist);
+	SListPrint(plist);
+
 
 }
 

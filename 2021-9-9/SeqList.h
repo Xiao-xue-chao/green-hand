@@ -6,7 +6,8 @@
 #include <assert.h>
 #include <stdlib.h>
 
-typedef int SLDateType;
+typedef int SLDateType;       //可以随时修改变量
+
 typedef struct SeqList
 {
 	SLDateType* a;
@@ -15,18 +16,31 @@ typedef struct SeqList
 }SeqList;
 
 // 对数据的管理:增删查改 
-void SeqListInit(SeqList* ps);
-void SeqListDestory(SeqList* ps);
+void SeqListInit(SeqList* ps);   //初始化结构体
+void SeqListDestory(SeqList* ps); //结构体销毁
 
+//结构体打印
 void SeqListPrint(SeqList* ps);
-void SeqListPushBack(SeqList* ps, SLDateType x);
-void SeqListPushFront(SeqList* ps, SLDateType x);
-void SeqListPopFront(SeqList* ps);
-void SeqListPopBack(SeqList* ps);
+
+//尾部插入
+void SeqListPushBack(SeqList* ps, SLDateType x); 
+
+//头部插入
+void SeqListPushFront(SeqList* ps, SLDateType x); 
+
+//头部删除
+void SeqListPopFront(SeqList* ps);  
+
+//尾部删除
+void SeqListPopBack(SeqList* ps);   
+
+
 
 // 顺序表查找
 int SeqListFind(SeqList* ps, SLDateType x);
+
 // 顺序表在pos位置插入x
 void SeqListInsert(SeqList* ps, size_t pos, SLDateType x);
+
 // 顺序表删除pos位置的值
 void SeqListErase(SeqList* ps, size_t pos);
