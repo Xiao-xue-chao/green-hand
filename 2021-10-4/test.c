@@ -31,8 +31,16 @@ void ListNodeTest()
 	n5->_data = 5;
 
 	ListPrint(plist);
-	ListDestory(plist);
+	//ListDestory(&plist);
+	ListPushBack(plist, 6);
 	ListPrint(plist);
+	ListPopBack(plist);
+	ListPrint(plist);
+	ListPushFront(plist, 0);
+	ListPrint(plist);
+	ListPopFront(plist);
+	ListPrint(plist);
+
 
 }
 

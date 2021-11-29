@@ -17,7 +17,7 @@ typedef struct ListNode
 ListNode* ListCreate();
 
 // 双向链表销毁
-void ListDestory(ListNode* pHead);
+void ListDestory(ListNode** pHead);
 
 // 双向链表打印
 void ListPrint(ListNode* pHead);
