@@ -1,0 +1,7 @@
+﻿  Stack.c
+E:\C语言\Github\green-hand\Stack\Stack.c(21,15): warning C4133: “=”: 从“Stack *”到“STDataType *”的类型不兼容
+E:\C语言\Github\green-hand\Stack\Stack.c(39,2): warning C4550: 表达式计算为缺少参数列表的函数
+  test.c
+E:\C语言\Github\green-hand\Stack\test.c(17,4): warning C4552: ”+“: 未使用表达式结果
+  正在生成代码...
+  Stack.vcxproj -> E:\C语言\Github\green-hand\Stack\Debug\Stack.exe

@@ -1,2 +1,0 @@
-# green-hand
-Welcome everyone.

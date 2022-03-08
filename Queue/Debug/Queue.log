@@ -1,0 +1,5 @@
+﻿  Queue.c
+E:\C语言\Github\green-hand\Queue\Queue.c(46,2): warning C4550: 表达式计算为缺少参数列表的函数
+E:\C语言\Github\green-hand\Queue\Queue.c(57,2): warning C4550: 表达式计算为缺少参数列表的函数
+E:\C语言\Github\green-hand\Queue\Queue.c(66,2): warning C4550: 表达式计算为缺少参数列表的函数
+  Queue.vcxproj -> E:\C语言\Github\green-hand\Queue\Debug\Queue.exe

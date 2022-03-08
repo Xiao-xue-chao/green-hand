@@ -1,0 +1,7 @@
+﻿  test.c
+E:\C语言\Github\green-hand\my_qsort_by_bubble_sort\test.c(7,30): warning C4098: “compare”:“void”函数返回值
+E:\C语言\Github\green-hand\my_qsort_by_bubble_sort\test.c(44,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\C语言\Github\green-hand\my_qsort_by_bubble_sort\test.c(46,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\C语言\Github\green-hand\my_qsort_by_bubble_sort\test.c(80,43): warning C4133: “函数”: 从“void (__cdecl *)(const void *,const void *)”到“int (__cdecl *)(const void *,const void *)”的类型不兼容
+E:\C语言\Github\green-hand\my_qsort_by_bubble_sort\test.c(70): warning C4716: “printf_arr”: 必须返回一个值
+  my_qsort_by_bubble_sort.vcxproj -> E:\C语言\Github\green-hand\my_qsort_by_bubble_sort\Debug\my_qsort_by_bubble_sort.exe

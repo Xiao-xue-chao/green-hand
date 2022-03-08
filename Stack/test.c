@@ -2,13 +2,19 @@
 
 #include"Stack.h"
 
-void test1()
-{
-	Stack
-}
+//void test1()
+//{
+//	Stack
+//}
 
 int main()
 {
-	test1();
+	//test1();
+	int m, n;
+	m = n = 2;
+	m--;
+	m = m + (++n);
+	m + 2;
+
 	return 0;
 }
