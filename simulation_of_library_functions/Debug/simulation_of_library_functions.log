@@ -1,0 +1,11 @@
+﻿  my_string.c
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(15,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(27,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(38,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(39,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(51,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(69,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(70,1): warning C4090: “初始化”: 不同的“const”限定符
+  test.c
+  正在生成代码...
+  simulation_of_library_functions.vcxproj -> E:\C语言\Github\green-hand\simulation_of_library_functions\Debug\simulation_of_library_functions.exe
