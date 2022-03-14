@@ -7,5 +7,7 @@ E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(51,1): 
 E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(69,1): warning C4090: “初始化”: 不同的“const”限定符
 E:\C语言\Github\green-hand\simulation_of_library_functions\my_string.c(70,1): warning C4090: “初始化”: 不同的“const”限定符
   test.c
+E:\C语言\Github\green-hand\simulation_of_library_functions\test.c(50,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“void *”
+E:\C语言\Github\green-hand\simulation_of_library_functions\test.c(70,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“void *”
   正在生成代码...
   simulation_of_library_functions.vcxproj -> E:\C语言\Github\green-hand\simulation_of_library_functions\Debug\simulation_of_library_functions.exe

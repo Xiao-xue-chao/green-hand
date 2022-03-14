@@ -45,18 +45,28 @@ void test_my_strstr(char* p1, char* p2)
 		printf("%s\n", str);
 }
 
+void test_my_memcpy(char* p1, char* p2)
+{
+	printf("%s\n", my_memcpy(p2, p1, 12));
+}
+
 int main()
 {
 	char* p1 = "abbbbbcde";
 	char* p2 = "bbc";
 
 	char arr[20] = { "asdfd"};
+	char arr4[20] = { "0" };
+	int arr2[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int arr3[10] = { 0 };
 
 	//test_my_strlen(p);
-	//test_my_strcpy(arr,p);
+	//test_my_strcpy(arr,p1);
 	//test_my_strcmp(p1, p2);
 	//test_my_strcat(arr, p1);
-	test_my_strstr(p1, p2);
-
+	//test_my_strstr(p1, p2);
+	//test_my_memcpy(arr, arr4);
+	//printf("%s\n",memcpy(arr4, arr, 3));
+	printf("%s\n",memmove(arr + 2, arr, 3));
 	return 0;
 }

@@ -86,3 +86,44 @@ char* my_strstr(const char* str1, const char* str2)
 	}
 	return NULL;
 }
+
+void* my_memcpy(void* destination, const void* source, size_t num)
+{
+	assert(destination && source);
+	void* ptr = destination;
+	char* p1 = (char*)destination;
+	char* p2 = (char*)source;
+	while (num--)
+	{
+		*p1++ = *p2++;
+
+		//*(char*)destination = *(char*)source;
+		//(char*)destination += 1;
+		//(char*)source += 1;
+	}
+	return ptr;
+
+	//void* ret = destination;
+	//assert(destination && source);
+	//
+	//while (num--)//4 3 2 1
+	//{
+	//	*(char*)destination = *(char*)source;
+	//	destination = (char*)destination + 1;
+	//	source = (char*)source + 1;
+	//}
+	//return ret;
+}
+
+void* my_memmove(void* destination, const void* source, size_t num)
+{
+	assert(destination && source);
+	char* p1 = (char*)destination;
+	char* p2 = (char*)source;
+
+	while (num--)
+	{
+		*(p1 + num - 1) = *(p2 + num - 1);
+	}
+	return destination;
+}
